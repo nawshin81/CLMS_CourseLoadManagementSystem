@@ -1,0 +1,22 @@
+#initial try but not working
+
+php artisan migrate
+php artisan key:generate
+php artisan db:seed
+
+
+
+
+
+#seed and migrate 
+
+php artisan migrate:refresh --seed
+
+
+
+
+
+#for only seeding
+
+composer dump-autoload
+php artisan db:seed
